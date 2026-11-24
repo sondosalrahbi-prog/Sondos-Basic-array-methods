@@ -5,7 +5,7 @@
 // - Nobody has that name: return undefined (find does this for you).
 
 function findUser(users, name) {
-  // your code
+  return users.find(u => u.name === name)
 }
 
 const users = [

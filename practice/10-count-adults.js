@@ -4,7 +4,7 @@
 // - Use filter and .length.
 
 function countAdults(users) {
-  // your code
+  return users.filter( u => u.age >= 18).length
 }
 
 const users = [

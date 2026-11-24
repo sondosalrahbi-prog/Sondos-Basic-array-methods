@@ -4,7 +4,7 @@
 // - Use filter.
 
 function getUsersFromCity(users, city) {
-  // your code
+  return users.filter(u => u.city === city)
 }
 
 const users = [

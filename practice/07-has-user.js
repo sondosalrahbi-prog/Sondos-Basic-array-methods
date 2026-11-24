@@ -4,7 +4,12 @@
 // - Use find and compare the result with undefined.
 
 function hasUser(users, name) {
-  // your code
+    const user = users.find(u => u.name === name);
+
+// return Boolean(user)
+// return !!user
+return user !== undefined
+
 }
 
 const users = [

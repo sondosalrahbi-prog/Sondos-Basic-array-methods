@@ -5,7 +5,7 @@
 // - Nobody is an adult: return undefined.
 
 function findFirstAdult(users) {
-  // your code
+  return users.find(u => u.age >= 18  )
 }
 
 const users = [

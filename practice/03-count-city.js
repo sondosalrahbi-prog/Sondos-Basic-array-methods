@@ -5,7 +5,8 @@
 // - Nobody matches: return 0.
 
 function countCity(users, city) {
-  // your code
+  count = 0 
+  return users.filter(u => u.city === city ).length
 }
 
 const users = [

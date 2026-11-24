@@ -5,7 +5,7 @@
 // - Nothing matches: return [].
 
 function getCheapNames(products, limit) {
-  // your code
+  return products.filter(p => p.price < limit).map(n => n.name)
 }
 
 const products = [

@@ -5,7 +5,7 @@
 // - Nobody matches: return [].
 
 function getAdults(users) {
-  // your code
+  return users.filter(u => u.age >= 18)
 }
 
 const users = [

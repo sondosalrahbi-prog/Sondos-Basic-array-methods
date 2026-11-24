@@ -5,7 +5,7 @@
 // - A price equal to limit does not count.
 
 function getExpensiveProducts(products, limit) {
-  // your code
+  return products.filter( p => p.price > limit)
 }
 
 const products = [
